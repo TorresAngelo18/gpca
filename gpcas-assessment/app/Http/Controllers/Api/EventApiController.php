@@ -136,4 +136,25 @@ class EventApiController extends Controller
             ], 500);
         }
     }
+
+
+
+    public function speakers(Event $event)
+    {
+        return response()->json([
+            'success' => true,
+            'message' => 'Speakers for the event fetched successfully',
+            'data' => $event->speakers
+        ]);
+    }
+
+    public function sessions(Event $event)
+    {
+        $event->load('sessions.speakers');
+        return response()->json([
+            'success' => true,
+            'message' => 'Sessions for the event fetched successfully',
+            'data' => $event->sessions
+        ]);
+    }
 }

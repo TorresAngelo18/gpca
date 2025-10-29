@@ -21,6 +21,8 @@ Route::prefix('events')->name('api.events.')->group(function () {
     Route::get('{event}', [EventApiController::class, 'show'])->name('show');
     Route::put('{event}', [EventApiController::class, 'update'])->name('update');
     Route::delete('{event}', [EventApiController::class, 'destroy'])->name('destroy');
+    Route::get('{event}/speakers', [EventApiController::class, 'speakers'])->name('speakers');
+    Route::get('{event}/sessions', [EventApiController::class, 'sessions'])->name('sessions');
 });
 
 Route::prefix('speakers')->name('api.speakers.')->group(function () {
