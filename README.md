@@ -11,6 +11,7 @@ This is a Laravel project for managing **Events, Speakers, and Sessions**, inclu
 -   [Running the Project](#running-the-project)
 -   [Blade UI](#blade-ui)
 -   [API Endpoints](#api-endpoints)
+-   [How it works](#how-it-works)
 -   [License](#license)
 
 ---
@@ -131,6 +132,31 @@ Sessions
 | GET    | /api/sessions/{id} | Get session details  |
 | PUT    | /api/sessions/{id} | Update a session     |
 | DELETE | /api/sessions/{id} | Delete a session     |
+
+
+
+## How It Works
+
+
+Events (Home Page)
+-Users can create, view, edit, and delete events.
+-On the event details page, you can see all speakers and sessions for that event
+-Each speaker or session is displayed as a clickable link to view details or edit.
+
+
+Speakers
+-Speakers are assigned to a specific event.
+-To add a speaker, click the “Add Speaker” button on the event page.
+-Once added, the speaker appears in a list. You can click their name to view or edit.
+
+
+Sessions
+-Sessions belong to a specific event.
+-To add a session, click the “Add Session” button on the event page.
+-You can **assign multiple speakers
+
+
+
 
 ## License
 
