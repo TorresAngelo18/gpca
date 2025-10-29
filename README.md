@@ -101,37 +101,9 @@ Session Pages
 
 ## API Endpoints
 
-All API routes are prefixed with /api. Responses are JSON with a success boolean, message, and data.
+The API documentation is available on Postman. You can view all endpoints, request/response formats, and examples here:
 
-Events
-
-| Method | URL              | Description        |
-| ------ | ---------------- | ------------------ |
-| GET    | /api/events      | List all events    |
-| POST   | /api/events      | Create a new event |
-| GET    | /api/events/{id} | Get event details  |
-| PUT    | /api/events/{id} | Update an event    |
-| DELETE | /api/events/{id} | Delete an event    |
-
-Speakers
-
-| Method | URL                | Description          |
-| ------ | ------------------ | -------------------- |
-| GET    | /api/speakers      | List all speakers    |
-| POST   | /api/speakers      | Create a new speaker |
-| GET    | /api/speakers/{id} | Get speaker details  |
-| PUT    | /api/speakers/{id} | Update a speaker     |
-| DELETE | /api/speakers/{id} | Delete a speaker     |
-
-Sessions
-
-| Method | URL                | Description          |
-| ------ | ------------------ | -------------------- |
-| GET    | /api/sessions      | List all sessions    |
-| POST   | /api/sessions      | Create a new session |
-| GET    | /api/sessions/{id} | Get session details  |
-| PUT    | /api/sessions/{id} | Update a session     |
-| DELETE | /api/sessions/{id} | Delete a session     |
+[View API Docs on Postman](https://documenter.getpostman.com/view/11120681/2sB3WnvgP6#intro)
 
 
 
