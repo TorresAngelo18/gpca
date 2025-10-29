@@ -22,7 +22,7 @@ This is a Laravel project for managing **Events, Speakers, and Sessions**, inclu
 ```bash
 
 git clone https://github.com/TorresAngelo18/gpca.git
-cd gpca
+cd gpca/gpcas-assessment
 
 ```
 
