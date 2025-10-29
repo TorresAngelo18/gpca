@@ -14,7 +14,7 @@ return Application::configure(basePath: dirname(__DIR__))
         api: [
             'prefix' => 'api',                     // <-- ensures all API routes are under /api
             'path'   => __DIR__ . '/../routes/api.php',
-            'namespace' => 'App\Http\Controllers\Api', // optional: sets default namespace for API
+         
         ],
     )
     ->withMiddleware(function (Middleware $middleware): void {
